@@ -1,80 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dgitalize | Roadmap</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0f1117;
+      color: #d1d5db;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .glow {
+      text-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
+    }
+    .card {
+      background: #1a1c23;
+      border: 1px solid #2e3241;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(59, 130, 246, 0.1);
+    }
+  </style>
 </head>
-<body class="bg-gray-50 text-gray-900 font-sans">
-  <header class="bg-white shadow fixed w-full top-0 z-50">
+<body class="text-gray-300">
+
+  <header class="bg-[#0f1117] border-b border-gray-800 fixed w-full top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-extrabold tracking-wide text-blue-700">Dgitalize</h1>
-      <span class="text-sm text-gray-500">Roadmap</span>
+      <h1 class="text-2xl font-bold tracking-wide text-blue-500 glow">Dgitalize</h1>
+      <span class="text-sm text-gray-400">Master Roadmap</span>
     </div>
   </header>
 
-  <main class="pt-24 pb-16 max-w-4xl mx-auto px-4 space-y-12">
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 1 – Dgizen (The Identity Core)</h2>
-      <p class="text-gray-700">Universal decentralized ID (dgiID), user profile prefs, SSO, and interest-based platform access.</p>
+  <main class="pt-24 pb-20 max-w-4xl mx-auto px-4 space-y-10">
+    <section class="text-center">
+      <h2 class="text-4xl font-extrabold text-blue-400 glow mb-2">The Dgitalize Master Roadmap</h2>
+      <p class="text-gray-400 text-base">Phased launch of our decentralized, creator-first digital ecosystem.</p>
     </section>
 
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 2 – Dgicoin + Dgifund (The Economic Engine)</h2>
-      <p class="text-gray-700">Utility token, staking, governance — all fueling an automated, transparent fund (UBI-style).</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 3 – Dgibank</h2>
-      <p class="text-gray-700">Wallet, trading, and user-owned finance — crypto, NFTs.</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 4 – Dgimarket</h2>
-      <p class="text-gray-700">E-Commerce Platform to buy and sell, with the wallet, crypto or other payment methods</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 5 – Dgistream</h2>
-      <p class="text-gray-700">Streaming for music, movies, games.</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 6 – Dgilearn</h2>
-      <p class="text-gray-700">Online learning platform meets co-creation and ownership.</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 7 – Dgiconnect</h2>
-      <p class="text-gray-700 italic">Social Media Platform</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 8 – Dgiwork</h2>
-      <p class="text-gray-700 italic">Collaborative Productivity Platform</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 9 – DgiAI</h2>
-      <p class="text-gray-700 italic">AI Creation Platform</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 10 – Dgicloud</h2>
-      <p class="text-gray-700 italic">Decentralized Cloud Platform</p>
-    </section>
-
-    <section>
-      <h2 class="text-3xl font-bold mb-2">Phase 11 – Dgicortex</h2>
-      <p class="text-gray-700 italic">Intelligent tech ecosystem</p>
+    <!-- Roadmap Phases -->
+    <section class="space-y-6">
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 1 – Dgizen</h3>
+        <p>Decentralized ID, profiles, SSO, interest-based onboarding.</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 2 – Dgicoin + Dgifund</h3>
+        <p>Token economy, staking, governance, user-driven UBI fund.</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 3 – Dgibank</h3>
+        <p>Wallet, crypto/NFT management, trading and investing platform.</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 4 – Dgimarket</h3>
+        <p>Marketplace for digital/physical goods & services to buy and sell.</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 5 – Dgistream</h3>
+        <p>Streaming for music, games, and movie content, for consumers and creators.</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 6 – Dgilearn</h3>
+        <p>Interactive learning courses, created by experts and the community.</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 7 – Dgiconnect</h3>
+        <p>Social Media platform for networking, and connecting people (and AI).</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 8 – Dgiwork</h3>
+        <p>collaboration tools & productivity suite.</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 9 – DgiAI</h3>
+        <p>AI for content, code, media, and business creativity.</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 10 – Dgicloud</h3>
+        <p>Decentralized cloud platform for hosting content and sharing</p>
+      </div>
+      <div class="card p-6 rounded-xl">
+        <h3 class="text-xl font-bold text-blue-400">Phase 11 – Dgicortex</h3>
+        <p>Intelligent technology ecosystem</p>
+      </div>
     </section>
   </main>
 
-  <footer class="bg-white shadow mt-12">
-    <div class="max-w-7xl mx-auto px-4 py-6 text-center text-sm text-gray-500">
-      &copy; 2025 - Dgitalize. All rights reserved.
-    </div>
+  <footer class="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
+    &copy; 2025 Dgitalize. Built for freedom, powered by you.
   </footer>
+
 </body>
 </html>
