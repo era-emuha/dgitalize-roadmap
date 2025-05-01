@@ -1,97 +1,164 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Dgitalize | Roadmap</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <title>Dgitalize | The Future Is Modular</title>
   <style>
     body {
-      background-color: #0f1117;
-      color: #d1d5db;
       font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #0e0e0e;
+      color: #f0f0f0;
     }
-    .glow {
-      text-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
+    header {
+      background: #111;
+      padding: 20px 40px;
+      text-align: center;
     }
-    .card {
-      background: #1a1c23;
-      border: 1px solid #2e3241;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
     }
-    .card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 8px 24px rgba(59, 130, 246, 0.1);
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #0ff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .hero {
+      padding: 80px 40px;
+      text-align: center;
+      background: linear-gradient(135deg, #0bb 0%, #088 100%);
+      color: #fff;
+    }
+    .hero h2 {
+      font-size: 2.2rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    section {
+      padding: 60px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    footer {
+      text-align: center;
+      padding: 40px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .cta {
+      background: #0ff;
+      color: #000;
+      padding: 15px 30px;
+      display: inline-block;
+      border-radius: 8px;
+      margin-top: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h2 {
+      color: #0ff;
+    }
+    h3 {
+      color: #ccc;
     }
   </style>
 </head>
-<body class="text-gray-300">
-
-  <header class="bg-[#0f1117] border-b border-gray-800 fixed w-full top-0 z-50">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold tracking-wide text-blue-500 glow">Dgitalize</h1>
-      <span class="text-sm text-gray-400">Master Roadmap</span>
-    </div>
+<body>
+  <header>
+    <h1>Dgitalize</h1>
+    <nav>
+      <a href="#vision">Vision</a>
+      <a href="#stack">Stack</a>
+      <!-- 
+      <a href="#contact">Contact</a>
+      -->
+      
+    </nav>
   </header>
 
-  <main class="pt-24 pb-20 max-w-4xl mx-auto px-4 space-y-10">
-    <section class="text-center">
-      <h2 class="text-4xl font-extrabold text-blue-400 glow mb-2">The Dgitalize Master Roadmap</h2>
-      <p class="text-gray-400 text-base">Phased launch of our decentralized, creator-first digital ecosystem.</p>
-    </section>
+  <section class="hero">
+    <h2>Build the Future. Own the Experience.</h2>
+    <p>Dgitalize is a modular, AI-first digital ecosystem where your identity, income, and creativity thrive in sync. Welcome to the next layer of the internet.</p>
+    <a href="#contact" class="cta">Get Involved</a>
+  </section>
 
-    <!-- Roadmap Phases -->
-    <section class="space-y-6">
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 1 – Dgizen</h3>
-        <p>Decentralized ID, profiles, SSO, interest-based onboarding.</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 2 – Dgicoin + Dgifund</h3>
-        <p>Token economy, staking, governance, user-driven UBI fund.</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 3 – Dgibank</h3>
-        <p>Wallet, crypto/NFT management, trading and investing platform.</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 4 – Dgimarket</h3>
-        <p>Marketplace for digital/physical goods & services to buy and sell.</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 5 – Dgilearn</h3>
-        <p>Interactive learning courses, created by experts and the community.</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 6 – Dgistream</h3>
-        <p>Streaming platform for music, games, videos, and movies, for consumers and creators.</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 7 – Dgiconnect</h3>
-        <p>Social Media platform for networking, and connecting people (and AI).</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 8 – Dgiwork</h3>
-        <p>collaboration tools & productivity suite.</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 9 – DgiAI</h3>
-        <p>AI for content, code, media, and business creativity.</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 10 – Dgicloud</h3>
-        <p>Decentralized cloud platform for hosting content and sharing</p>
-      </div>
-      <div class="card p-6 rounded-xl">
-        <h3 class="text-xl font-bold text-blue-400">Phase 11 – Dgiware</h3>
-        <p>Intelligent technology & robotics ecosystem</p>
-      </div>
-    </section>
-  </main>
+  <section id="vision">
+    <h2>Dgitalize vs. The World: Why This Vision Stands Alone</h2>
+    <p><strong>Overview</strong><br>
+    Dgitalize is building a full-stack, modular digital ecosystem from the ground up. With a phased roadmap that starts from identity and moves through AI, finance, commerce, education, and media—all the way to hardware integration—Dgitalize proposes a future of digital life where users own their experience, earn value, and collaborate with AI agents seamlessly. No existing company matches this blend of modularity, scope, and purpose.</p>
+  </section>
 
-  <footer class="border-t border-gray-800 py-6 text-center text-sm text-gray-500">
-    &copy; 2025 Dgitalize. Built for freedom, powered by you.
+  <section id="stack">
+    <h2>Where Dgitalize Differs</h2>
+
+    <h3>1. Dgid (Identity Layer)</h3>
+    <p><strong>Similar Projects:</strong> Worldcoin, BrightID, Ethereum ENS, SpruceID<br>
+    <strong>What Sets Dgid Apart:</strong> It is not just an ID system—it is the anchor of the ecosystem, enabling cross-platform continuity, trust, and AI personalization.</p>
+
+    <h3>2. DgiAI (AI Layer)</h3>
+    <p><strong>Similar Projects:</strong> OpenAI, Anthropic, xAI<br>
+    <strong>What Sets DgiAI Apart:</strong> Every user gets a personal AI. Each platform has its own agent. This creates a collaborative mesh of intelligent tools, unlike siloed model access elsewhere.</p>
+
+    <h3>3. Dgibank (Finance Layer)</h3>
+    <p><strong>Similar Projects:</strong> Revolut, Monzo, DeFi (Aave, Compound)<br>
+    <strong>What Sets Dgibank Apart:</strong> Integrated into user identity, personalized by AI, and connected to income redistribution mechanisms via Ubifund.</p>
+
+    <h3>4. Dgimarket (Commerce Layer)</h3>
+    <p><strong>Similar Projects:</strong> Shopify, Amazon, Etsy<br>
+    <strong>What Sets Dgimarket Apart:</strong> Connected to Dgid, Ubifund, and user-owned AI, allowing users to sell, buy, and earn intelligently within a trust layer.</p>
+
+    <h3>5. Dgilearn (Learning)</h3>
+    <p><strong>Similar Projects:</strong> Coursera, Khan Academy, Udemy<br>
+    <strong>What Sets Dgilearn Apart:</strong> Learning paths dynamically built by AI. Rewards tied to user progression. Directly connected to work and income.</p>
+
+    <h3>6. Dgistream (Streaming)</h3>
+    <p><strong>Similar Projects:</strong> YouTube, Twitch<br>
+    <strong>What Sets Dgistream Apart:</strong> Creator income tied to system-wide revenue. Interoperability with identity and AI. No platform lock-in.</p>
+
+    <h3>7. Dgigame (Gaming)</h3>
+    <p><strong>Similar Projects:</strong> Steam, NVIDIA GeForce Now<br>
+    <strong>What Sets Dgigame Apart:</strong> Game access and participation enhanced by personal AI, identity continuity, and reward models.</p>
+
+    <h3>8. Dgiconnect (Social Network)</h3>
+    <p><strong>Similar Projects:</strong> Discord, LinkedIn, Facebook<br>
+    <strong>What Sets Dgiconnect Apart:</strong> AI-augmented social interactions, identity verification, and value-driven connection tools.</p>
+
+    <h3>9. Dgiwork (Productivity)</h3>
+    <p><strong>Similar Projects:</strong> Notion, Slack, Microsoft Teams<br>
+    <strong>What Sets Dgiwork Apart:</strong> Fully integrated with user AI and ecosystem identity, enabling seamless task management, collaboration, and economic integration.</p>
+
+    <h3>10. Expansion Layer</h3>
+    <p><strong>Dgicoin:</strong> Stable ecosystem currency.<br>
+    <strong>Dgicloud:</strong> Decentralized storage infrastructure.<br>
+    <strong>Dgiware:</strong> Hardware suite including Dgicortex (neural control), Dgiphone, Dgitab, DgiTV, Dgibot, Dgicar, and more.</p>
+
+    <h3>Ubifund (Basic Income Distribution)</h3>
+    <p><strong>Similar Projects:</strong> None implemented at scale<br>
+    <strong>What Sets Ubifund Apart:</strong> A real-time, capped UBI system ($0-$1200/user/month) funded by ecosystem revenue. Growth rewards everyone.</p>
+
+    <h3>Conclusion</h3>
+    <p>Dgitalize is not just another platform—it is an architecture. It rethinks how identity, intelligence, income, and interaction work together in a fully-integrated, user-centered, AI-first digital economy. This is the next layer of the internet. And no one else is building it like this.</p>
+  </section>
+
+  <!--
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Ready to collaborate, build, or invest? Reach out and let’s Dgitalize the world.</p>
+    <p>Email: hello@dgitalize.com</p>
+  </section>
+  -->
+  
+
+  <footer>
+    &copy; 2025 Dgitalize. All rights reserved.
   </footer>
-
 </body>
 </html>
